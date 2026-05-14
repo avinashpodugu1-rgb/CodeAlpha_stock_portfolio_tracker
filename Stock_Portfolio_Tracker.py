@@ -31,6 +31,6 @@ print("💰 Total Investment Value = $", total)
 
 with open("portfolio.txt", "w") as file:
     file.write("\n".join(portfolio))
-    file.write(f"\nTotal = ${total}")
+    file.write(f"\nTotal = ${total}") 
 
 print("Saved to portfolio.txt")
